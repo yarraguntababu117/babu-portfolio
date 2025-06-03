@@ -60,7 +60,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Babu";
-            $("#favicon").attr("href", "assets/images/avt1.png");
+            $("#favicon").attr("href", "assets/images/favcon.png");
         }
         else {
             document.title = "Come Back To Portfolio";
