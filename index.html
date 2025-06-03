@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Yarragunta Babu, portfolio, Babu, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Babu's Portfolio. Full-Stack Web Developer and Android App Developer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | Yarragunta Babu</title>
+</head>
+<body oncontextmenu="return false">
+
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+<!-- navbar starts -->
+<header>
+        <a href="https://tse3.mm.bing.net/th?id=OIP.RDEu3CNmHal_9naZXZpqUQHaHa&pid=Api&P=0&h=180" class="logo"><i class=" "></i> Babu </a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
+
+
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+    <h2>Hi There,<br/> I'm <span>Babu</span></h2>
+    <p>i am into <span class="typing-text"></span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="http://https//www.linkedin.com/in/yarragunta-babu-600642300/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://github.com/yarraguntababu117" target="_blank"><i class="fab fa-github"></i></a></li>
+          <!--<li><a class="twitter" aria-label="Twitter" href="https://www.instagram.com/aslicecode" target="_blank"><i class="fab fa-twitter"></i></a></li>-->
+          <!--<li><a class="telegram" aria-label="Telegram" href="https://www.instagram.com/aslicecode" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>-->
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/_._b.a.b.u_._/?hl=en"><i class="fab fa-instagram" target="_blank"></i></a></li>
+         <!-- <li><a class="dev" aria-label="Dev" href="https://www.instagram.com/aslicecode" target="_blank"><i class="fab fa-dev"></i></a></li>-->
+        </ul>
+      </div>
+    </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
+</div>
+</section>
+<!-- hero section ends -->
+
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="row">
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/imgg.avif" alt="">
+    </div>
+    <div class="content">
+        <h3>I'm Babu</h3>
+        <span class="tag">Aspiring Software Developer</span>
+        
+        <p>I am a Aspiring Software Developer. 
+          I am very passionate about improving my coding skills & developing applications & websites.
+          I build WebApps and Websites using MERN Stack.
+          Working for myself to improve my skills.
+          Love to build Full-Stack clones. </p>
+        
+        <div class="box-container">
+            <!-- <div class="box">
+              <p><span> age: </span> 25</p>
+              <p><span> phone : </span> +91 XXX-XXX-2757</p>
+            </div> -->
+            <div class="box">
+              <p><span> email : </span> yarraguntababu123@gmail.com</p>
+              <p><span> place : </span> Andhra Pradesh, India - 521001</p>
+            </div>
+        </div>
+        
+        <div class="resumebtn">
+            <a href="https://drive.google.com/file/d/1kKGMeHX-nOHCzDZRf99xA7LYSg8H3BoR/view?usp=drive_link" target="_blank" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+
+    </div>
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- skills section starts -->
+<!-- skills section starts -->
+<section class="skills" id="skills">
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+  <div class="container">
+    <div class="grid" id="skillsContainer">
+      <!-- Skill cards will be inserted here -->
+    </div>
+  </div>
+</section>
+<!-- skills section ends -->
+
+<!-- Embedded JSON with Skills -->
+<script type="application/json" id="skillsData">
+[
+  {"name":"Java","icon":"https://img.icons8.com/color/48/java-coffee-cup-logo.png"},
+  {"name":"Python","icon":"https://img.icons8.com/color/48/python.png"},
+  {"name":"HTML/CSS","icon":"https://img.icons8.com/color/48/html-5--v1.png"},
+  {"name":"C","icon":"https://img.icons8.com/color/48/c-programming.png"},
+  {"name":"C++","icon":"https://img.icons8.com/color/48/c-plus-plus-logo.png"},
+  {"name":"JavaScript","icon":"https://img.icons8.com/color/48/javascript--v1.png"},
+{"name":"React.js","icon":"https://img.icons8.com/color/48/react-native.png"},
+  {"name":"Testing","icon":"https://img.icons8.com/external-flaticons-lineal-color-flat-icons/48/000000/external-automation-robotics-flaticons-lineal-color-flat-icons.png"}
+]
+</script>
+
+<!-- JavaScript to display skills -->
+<script>
+  const skills = JSON.parse(document.getElementById('skillsData').textContent);
+  const container = document.getElementById('skillsContainer');
+
+  skills.forEach(skill => {
+    const card = document.createElement('div');
+    card.className = 'skill-card';
+    card.innerHTML = `
+      <img src="${skill.icon}" alt="${skill.name}" />
+      <span>${skill.name}</span>
+    `;
+    container.appendChild(card);
+  });
+</script>
+
+<!-- Grid Styles -->
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin-top: 30px;
+  }
+
+  .skill-card {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+  }
+
+  .skill-card img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+  }
+
+  .skill-card span {
+    display: block;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #333;
+  }
+</style>
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="https://tse3.mm.bing.net/th?id=OIP.upPTZxql4fjAEgVs4_oP4QHaDN&pid=Api&P=0&h=180" alt="">
+        </div>
+        <div class="content">
+        <h3>Master of Technology in Computer Science</h3>
+        <p>Gitam Deemed to be University | Visakhapatam</p>
+        <h4>2021-2023 | Completed</h4>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="https://www.admissionfever.com/Media/clgimg/gallery/2067_img6974797572677080.png" alt="">
+        </div>
+        <div class="content">
+        <h3>Bachelor of Technology in Computer Science</h3>
+        <p>V R Siddhartha Engineering College | Vijayawad</p>
+        <h4>2018-2021 | Completed</h4>
+        </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="https://tse3.mm.bing.net/th?id=OIP.nd4ROd-2BvWn-QvKUbjYBwHaFj&pid=Api&P=0&h=180" alt="">
+      </div>
+      <div class="content">
+      <h3>Diploma</h3>
+      <p>A A N M & V V R S R Polytechnic | Gudlavalleru</p>
+      <h4>2015-2018 | Completed</h4>
+      </div>
+    </div>
+
+</div>
+</section>
+<!-- education section ends -->
+
+
+<!-- work project section starts -->
+<section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+  <div class="box-container">
+
+    <!-- <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/portfolio1.PNG" alt="" />
+    
+      <div class="content">
+        <div class="tag">
+        <h3>Portfolio Website</h3>
+        </div>
+        <div class="desc">
+          <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/jigar-sable/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+</div>
+
+<div class="viewall">
+  <a href="file:///E:/Babu-portfolio-main/Babu-portfolio-main/portfolio/babupersonalPortfolio/projects/index.html" class="btn"><span>View All</span>
+    <i class="fas fa-arrow-right"></i>
+</a>
+</div>
+
+</section>
+<!-- work project section ends -->
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+  <div class="timeline">
+<div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Assistant Professor</h2>
+        </div>
+        <div class="desc">
+            <h3>LBRCE</h3>
+            <p>July24 - present</p>
+        </div>
+      </div>
+    </div>
+
+      <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Devops Engineer Intern</h2>
+        </div>
+        <div class="desc">
+            <h3>TechnoHacks </h3>
+            <p>April 25- May 25</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Software Developer Intern</h2>
+        </div>
+        <div class="desc">
+            <h3>Exposys Data Labs</h3>
+            <p>sep 20- Nov 20</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Java and Networks Intern</h2>
+        </div>
+        <div class="desc">
+            <h3>Techno Towers</h3>
+            <p>Apr 2018 - Jun 2018</p>
+        </div>
+      </div>
+    </div>
+
+    
+  <div class="morebtn">
+    <a href="/experience" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+  </a>
+  </div>
+
+</div>
+
+</section>
+<!-- experience section ends -->
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+  
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./assets/images/contact1.png" alt="">
+      </div>
+    <form id="contact-form">
+      
+      <div class="form-group">
+        <div class="field">
+          <input type="text" name="name" placeholder="Name" required>
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Email" required>
+          <i class='fas fa-envelope'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="phone" placeholder="Phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="message">
+        <textarea placeholder="Message" name="message" required></textarea>
+        <i class="fas fa-comment-dots"></i>
+        </div>
+        </div>
+      <div class="button-area">
+        <button type="submit">
+          Submit <i class="fa fa-paper-plane"></i></button>
+      </div>
+    </form>
+  </div>
+  </div>
+</section>
+<!-- contact section ends -->
+
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Babu's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+91 812-527-XXXX</p>
+          <p> <i class="fas fa-envelope"></i>yarraguntababu123@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>AP, India-521001</p>
+          <div class="share">
+
+              <li><a class="linkedin" aria-label="LinkedIn" href="http://www.linkedin.com/in/yarragunta-babu-600642300/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://github.com/yarraguntababu117" target="_blank"><i class="fab fa-github"></i></a></li>
+          <!--<li><a class="twitter" aria-label="Twitter" href="https://www.instagram.com/aslicecode" target="_blank"><i class="fab fa-twitter"></i></a></li>-->
+          <!--<li><a class="telegram" aria-label="Telegram" href="https://www.instagram.com/aslicecode" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>-->
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/_._b.a.b.u_._/?hl=en"><i class="fab fa-instagram" target="_blank"></i></a></li>
+         <!-- <li><a class="dev" aria-label="Dev" href="https://www.instagram.com/aslicecode" target="_blank"><i class="fab fa-dev"></i></a></li>-->
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed <i class=""></i> by <a href="http://www.linkedin.com/in/yarragunta-babu-600642300">Babu</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>
